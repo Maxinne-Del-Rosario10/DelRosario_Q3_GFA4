@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secondpage</title>
+    <script>
+        function changeToFirstImage() {
+            document.getElementById("image").src = "1stpic.jpeg";
+        }
+        function changeToSecondImage() {
+            document.getElementById("image").src = "2ndpic.JPG";
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to my Second Page </h1>
+    <img id="image" src="1stpic.jpeg" alt="Image">
+
+    <button onclick="changeToFirstImage()">Change to First Image</button>
+
+    <button onclick="changeToSecondImage()">Change to Second Image</button>
+</body>
+</html>
